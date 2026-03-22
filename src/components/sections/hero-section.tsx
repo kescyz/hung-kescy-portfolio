@@ -42,7 +42,7 @@ export function HeroSection({ t }: HeroSectionProps) {
         <div className="md:col-span-4 relative flex justify-center">
           <div className="relative rounded-2xl border-[12px] border-primary-container/20 p-2 overflow-hidden w-72 h-72 md:w-96 md:h-96">
             <Image
-              src="/images/avatar.png"
+              src="/images/avatar.webp"
               alt="Hưng Kescy"
               fill
               className="object-cover rounded-xl"

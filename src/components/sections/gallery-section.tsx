@@ -6,18 +6,18 @@ interface GallerySectionProps {
 }
 
 const galleryImages = [
-  { src: "/media/z7076063266151_ba9434af33c2b51d30d98116e15cc8af.jpg", alt: "Training session" },
-  { src: "/media/z7015736978716_f2bbba99db288b8f5d99603912bcadf4.jpg", alt: "Speaking event" },
-  { src: "/media/z6977907768922_68e74a9b952fdb160cd0214f9b16ea87.jpg", alt: "Workshop audience" },
-  { src: "/media/5f73bf2fc7713c552ed1db4280bddfee.jpg", alt: "Classroom training" },
-  { src: "/media/IMG_9212.JPG", alt: "Portrait session" },
-  { src: "/media/CVT03666.jpg", alt: "Presentation" },
-  { src: "/media/image.png", alt: "Keynote speaking" },
-  { src: "/media/image copy.png", alt: "Award recognition" },
-  { src: "/media/IMG_9283.JPG", alt: "Live training" },
-  { src: "/media/070A7677.jpg", alt: "Event backdrop" },
-  { src: "/media/image copy 2.png", alt: "In-house training" },
-  { src: "/media/image copy 3.png", alt: "Technical presentation" },
+  { src: "/images/gallery/z7076063266151_ba9434af33c2b51d30d98116e15cc8af.webp", alt: "Training session" },
+  { src: "/images/gallery/z7015736978716_f2bbba99db288b8f5d99603912bcadf4.webp", alt: "Speaking event" },
+  { src: "/images/gallery/z6977907768922_68e74a9b952fdb160cd0214f9b16ea87.webp", alt: "Workshop audience" },
+  { src: "/images/gallery/5f73bf2fc7713c552ed1db4280bddfee.webp", alt: "Classroom training" },
+  { src: "/images/gallery/IMG_9212.webp", alt: "Portrait session" },
+  { src: "/images/gallery/CVT03666.webp", alt: "Presentation" },
+  { src: "/images/gallery/image.webp", alt: "Keynote speaking" },
+  { src: "/images/gallery/image copy.webp", alt: "Award recognition" },
+  { src: "/images/gallery/IMG_9283.webp", alt: "Live training" },
+  { src: "/images/gallery/070A7677.webp", alt: "Event backdrop" },
+  { src: "/images/gallery/image copy 2.webp", alt: "In-house training" },
+  { src: "/images/gallery/image copy 3.webp", alt: "Technical presentation" },
 ];
 
 export function GallerySection({ t }: GallerySectionProps) {
