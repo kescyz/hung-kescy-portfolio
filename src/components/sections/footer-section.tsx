@@ -65,10 +65,10 @@ export function FooterSection({ t }: FooterSectionProps) {
       <div className="max-w-[1120px] mx-auto px-6 mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
         <span className="text-emerald-100/40 text-xs">{t.copyright}</span>
         <div className="flex gap-6">
-          <a href="#" className="text-[10px] label-caps text-emerald-100/40 hover:text-emerald-300 transition-colors">
+          <a href="/privacy" className="text-[10px] label-caps text-emerald-100/40 hover:text-emerald-300 transition-colors">
             {t.privacy}
           </a>
-          <a href="#" className="text-[10px] label-caps text-emerald-100/40 hover:text-emerald-300 transition-colors">
+          <a href="/terms" className="text-[10px] label-caps text-emerald-100/40 hover:text-emerald-300 transition-colors">
             {t.terms}
           </a>
         </div>
